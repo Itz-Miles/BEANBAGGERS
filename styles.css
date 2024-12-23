@@ -123,6 +123,22 @@ section h2 {
     font-weight: bold;
 }
 
+/* Styling for the link in the Behind the Beans section */
+#behind-the-beans .info-text a {
+    color: #ff6f61;
+    /* Orange color */
+    text-decoration: none;
+    /* Removes the underline */
+    transition: color 0.3s ease;
+    /* Smooth color transition */
+}
+
+#behind-the-beans .info-text a:hover {
+    color: #e55a47;
+    /* Darker orange on hover */
+}
+
+
 
 /* Styling the scroll bar */
 .team::-webkit-scrollbar {
@@ -181,6 +197,24 @@ section h2 {
 .team li {
     margin-bottom: 0.5rem;
 }
+
+/* Informational Text Styling */
+#behind-the-beans .info-text {
+    font-size: 1.1rem;
+    color: #333;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#behind-the-beans .info-text p {
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
 
 /* Features Section */
 .feature-list {
