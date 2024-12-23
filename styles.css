@@ -216,6 +216,50 @@ section h2 {
 }
 
 
+/* Social Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+.social-icons a {
+    width: 24px;
+    height: 24px;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    opacity: 0.7;
+}
+
+/* Gmail Icon */
+.social-icons .gmail {
+    background-image: url('https://cdn0.iconfinder.com/data/icons/social-circle-3/72/Email-64.png');
+}
+
+/* Twitter Icon */
+.social-icons .twitter {
+    background-image: url('https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Twitter5_svg-64.png');
+}
+
+/* YouTube Icon */
+.social-icons .youtube {
+    background-image: url('https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Youtube3_svg-64.png');
+}
+
+/* GitHub Icon */
+.social-icons .github {
+    background-image: url('https://github.githubassets.com/assets/pinned-octocat-093da3e6fa40.svg');
+}
+
+
+
 /* Features Section */
 .feature-list {
     display: flex;
