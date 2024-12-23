@@ -20,21 +20,21 @@ body {
 
 .title {
     background: url('https://cdn.britannica.com/10/152310-050-5A09D74A/Sand-dunes-Sahara-Morocco-Merzouga.jpg') no-repeat center center/cover;
-    background-color: #222;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #fff;
+    color: #000;
 }
 
 .title h1 {
-    font-size: 6rem;
+    font-size: 8rem;
     margin-bottom: 1rem;
     font-family: 'Bungee';
     text-align: center;
     line-height: 0.9;
+    text-shadow: rgb(182, 229, 237) 0em -0.3rem;
 }
 
 .title .bean {
@@ -42,9 +42,11 @@ body {
 }
 
 .title .tagline {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin-bottom: 2rem;
+    line-height: 0.9;
     font-family: 'Bungee';
+    text-shadow: rgb(182, 229, 237) 0em -0.1rem;
 }
 
 .title .learn-more {
