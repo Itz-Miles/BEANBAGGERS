@@ -100,7 +100,7 @@ section h2 {
     display: flex;
     overflow-x: auto;
     gap: 1rem;
-    padding: 2rem 0;
+    padding: 1rem;
     position: relative;
     background-color: #f4f4f9;
     /* Match the page background color */
