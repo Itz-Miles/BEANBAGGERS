@@ -95,6 +95,84 @@ section h2 {
     line-height: 1.8;
 }
 
+/* Team Section Styling */
+.team {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding: 2rem 0;
+    position: relative;
+    background-color: #f4f4f9;
+    /* Match the page background color */
+    box-shadow: inset 10px 0 15px -10px rgba(0, 0, 0, 0.2), inset -10px 0 15px -10px rgba(0, 0, 0, 0.2);
+    /* Inward shadows on the sides */
+    padding-left: 1rem;
+    /* Optional: Adjust left padding to prevent content from touching the edge */
+    padding-right: 1rem;
+    /* Optional: Adjust right padding to prevent content from touching the edge */
+}
+
+/* Behind the Beans Subtitle Styling */
+#behind-the-beans .subtitle {
+    font-size: 1.25rem;
+    color: #555;
+    text-align: center;
+    margin: 1rem 0;
+    font-family: 'Arial', sans-serif;
+    /* Optional: Adjust the font family */
+    font-weight: bold;
+}
+
+
+/* Styling the scroll bar */
+.team::-webkit-scrollbar {
+    height: 8px;
+    /* Vertical scrollbar height */
+}
+
+.team::-webkit-scrollbar-thumb {
+    background-color: #ff6f61;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.team::-webkit-scrollbar-thumb:hover {
+    background-color: #e55a47;
+    /* Slightly darker color on hover */
+}
+
+.team::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+/* Team Member Card Styling */
+.team-member {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 0 0 auto;
+    /* Prevents wrapping and allows scroll */
+    width: 250px;
+    /* Set width for each card */
+    text-align: center;
+}
+
+.team-member h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #ff6f61;
+    font-family: 'Bungee', cursive;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 0.5rem;
+}
+
+
 .team ul {
     list-style-type: none;
     margin-top: 1rem;
