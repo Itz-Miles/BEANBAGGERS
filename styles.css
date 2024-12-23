@@ -18,8 +18,8 @@ body {
     margin: 0 auto;
 }
 
-.hero {
-    /*background: url('images/hero-bg.jpg') no-repeat center center/cover;*/
+.title {
+    /* background: url('images/hero-bg.jpg') no-repeat center center/cover; */
     background-color: #222;
     height: 100vh;
     display: flex;
@@ -29,7 +29,7 @@ body {
     color: #fff;
 }
 
-.hero h1 {
+.title h1 {
     font-size: 6rem;
     margin-bottom: 1rem;
     font-family: 'Bungee';
@@ -37,17 +37,17 @@ body {
     line-height: 0.9;
 }
 
-.hero .bean {
+.title .bean {
     font-size: 1.75em;
 }
 
-.hero .tagline {
+.title .tagline {
     font-size: 1.5rem;
     margin-bottom: 2rem;
     font-family: 'Bungee';
 }
 
-.hero .learn-more {
+.title .learn-more {
     background: #ff6f61;
     color: #fff;
     border: none;
@@ -58,7 +58,7 @@ body {
     transition: 'background' 0.3s ease;
 }
 
-.hero .learn-more:hover {
+.title .learn-more:hover {
     background: #ff4a3c;
 }
 
