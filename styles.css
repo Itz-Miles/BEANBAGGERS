@@ -19,7 +19,7 @@ body {
 }
 
 .title {
-    /* background: url('images/hero-bg.jpg') no-repeat center center/cover; */
+    background: url('https://cdn.britannica.com/10/152310-050-5A09D74A/Sand-dunes-Sahara-Morocco-Merzouga.jpg') no-repeat center center/cover;
     background-color: #222;
     height: 100vh;
     display: flex;
@@ -120,6 +120,45 @@ section h2 {
     color: #e55a47;
     /* Darker orange on hover */
 }
+
+/* Customize the scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+    /* Width of the scrollbar */
+    height: 12px;
+    /* Height of the scrollbar (horizontal) */
+}
+
+/* Customize the scrollbar track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Light gray background */
+    border-radius: 10px;
+    /* Rounded corners */
+}
+
+/* Customize the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+    background: #ff6f61;
+    /* Orange color */
+    border-radius: 10px;
+    /* Rounded corners */
+    border: 3px solid #e55a47;
+    /* Darker border around the thumb */
+}
+
+/* Customize the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #e55a47;
+    /* Darker orange on hover */
+}
+
+/* Optional: Customize the scrollbar corner (where the horizontal and vertical scrollbars meet) */
+::-webkit-scrollbar-corner {
+    background: #f1f1f1;
+    /* Same as the track background */
+}
+
 
 /* Styling the scroll bar */
 .team::-webkit-scrollbar {
