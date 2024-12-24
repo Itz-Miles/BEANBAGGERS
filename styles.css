@@ -10,7 +10,15 @@ body {
     background-color: #f4f4f9;
     color: #333;
     margin: 0;
+    background-image: url('assets/stalk-tileable.png');
+    background-repeat: repeat;
+    background-size: 128px 128px;
+    /* Tiling the 128x128 image */
+    background-attachment: fixed;
+    /* Slightly rotate the background */
+    position: relative;
 }
+
 
 .container {
     width: 90%;
@@ -26,6 +34,7 @@ body {
     align-items: center;
     text-align: center;
     color: #000;
+    mask-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 80%, rgba(255, 255, 255, 0) 100%);
 }
 
 .title h1 {
@@ -46,7 +55,6 @@ body {
     margin-bottom: 2rem;
     line-height: 0.9;
     font-family: 'Bungee';
-    text-shadow: rgb(182, 229, 237) 0em -0.1rem;
 }
 
 .title .learn-more {
@@ -83,7 +91,6 @@ section h2 {
 /* Tools of the Trade Section */
 #tools {
     padding: 2rem 0;
-    background-color: #f4f4f9;
 }
 
 #tools h2 {
@@ -180,14 +187,14 @@ section h2 {
     gap: 1rem;
     padding: 1rem;
     position: relative;
-    background-color: #f4f4f9;
+    background-color: #0000001f;
     /* Match the page background color */
-    box-shadow: inset 10px 0 15px -10px rgba(0, 0, 0, 0.2), inset -10px 0 15px -10px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 10px 5px 15px -10px rgba(0, 0, 0, 0.2), inset -10px 0 15px -10px rgba(0, 0, 0, 0.2);
     /* Inward shadows on the sides */
     padding-left: 1rem;
     /* Optional: Adjust left padding to prevent content from touching the edge */
     padding-right: 1rem;
-    /* Optional: Adjust right padding to prevent content from touching the edge */
+    border-radius: 8px;
 }
 
 /* Behind the Beans Subtitle Styling */
@@ -390,8 +397,6 @@ section h2 {
 .social-icons .github {
     background-image: url('https://github.githubassets.com/assets/pinned-octocat-093da3e6fa40.svg');
 }
-
-
 
 
 /* Features Section */
