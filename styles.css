@@ -338,13 +338,6 @@ section h2 {
     background-image: url("https://github.githubassets.com/assets/pinned-octocat-093da3e6fa40.svg");
 }
 
-.feature-list {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
 footer {
     background: #222;
     color: #fff;
