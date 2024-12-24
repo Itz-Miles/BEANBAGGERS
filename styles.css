@@ -13,9 +13,7 @@ body {
     background-image: url("assets/stalk-tileable.png");
     background-repeat: repeat;
     background-size: 128px 128px;
-
     background-attachment: fixed;
-
     position: relative;
 }
 
@@ -50,7 +48,7 @@ body {
 }
 
 .title .tagline {
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     margin-bottom: 2rem;
     line-height: 0.9;
     font-family: "Bungee";
