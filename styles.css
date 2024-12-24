@@ -10,15 +10,14 @@ body {
     background-color: #f4f4f9;
     color: #333;
     margin: 0;
-    background-image: url('assets/stalk-tileable.png');
+    background-image: url("assets/stalk-tileable.png");
     background-repeat: repeat;
     background-size: 128px 128px;
-    /* Tiling the 128x128 image */
+
     background-attachment: fixed;
-    /* Slightly rotate the background */
+
     position: relative;
 }
-
 
 .container {
     width: 90%;
@@ -27,7 +26,7 @@ body {
 }
 
 .title {
-    background: url('https://cdn.britannica.com/10/152310-050-5A09D74A/Sand-dunes-Sahara-Morocco-Merzouga.jpg') no-repeat center center/cover;
+    background: url("https://cdn.britannica.com/10/152310-050-5A09D74A/Sand-dunes-Sahara-Morocco-Merzouga.jpg") no-repeat center center/cover;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -40,7 +39,7 @@ body {
 .title h1 {
     font-size: 8rem;
     margin-bottom: 1rem;
-    font-family: 'Bungee';
+    font-family: "Bungee";
     text-align: center;
     line-height: 0.9;
     text-shadow: rgb(182, 229, 237) 0em -0.3rem;
@@ -54,7 +53,7 @@ body {
     font-size: 2.5rem;
     margin-bottom: 2rem;
     line-height: 0.9;
-    font-family: 'Bungee';
+    font-family: "Bungee";
 }
 
 .title .learn-more {
@@ -65,7 +64,7 @@ body {
     font-size: 1rem;
     cursor: pointer;
     border-radius: 5px;
-    transition: 'background' 0.3s ease;
+    transition: "background" 0.3s ease;
 }
 
 .title .learn-more:hover {
@@ -78,17 +77,15 @@ section h2 {
     line-height: 1;
     margin: 0rem 0;
     color: #222;
-    font-family: 'Bungee', cursive;
+    font-family: "Bungee", cursive;
 }
 
-/* About Section */
 #about p {
     font-size: 1.1rem;
     margin-bottom: 1rem;
     line-height: 1.8;
 }
 
-/* Tools of the Trade Section */
 #tools {
     padding: 2rem 0;
 }
@@ -97,14 +94,14 @@ section h2 {
     font-size: 4rem;
     text-align: center;
     color: #222;
-    font-family: 'Bungee', cursive;
+    font-family: "Bungee", cursive;
     margin-bottom: 2rem;
 }
 
 .tool-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* Two cards per row */
+
     gap: 2rem;
     margin-top: 2rem;
 }
@@ -118,22 +115,21 @@ section h2 {
     display: flex;
     flex-direction: column;
     height: 380px;
-    /* Increased card height */
 }
 
 .tool-card img {
     width: 100%;
     height: 65%;
-    /* Increased image height */
+
     object-fit: cover;
 }
 
 .tool-card h3 {
     font-size: 1.5rem;
     margin: 0.5rem 1rem;
-    /* Reduced top/bottom padding for the name */
+
     color: #ff6f61;
-    font-family: 'Bungee', cursive;
+    font-family: "Bungee", cursive;
 }
 
 .tool-card p {
@@ -142,45 +138,39 @@ section h2 {
     padding: 0 1rem;
     flex-grow: 1;
     line-height: 1.8;
-    /* Ensures description area grows */
+
     margin-top: auto;
-    /* Pushes description down to leave space for the name */
+
     overflow-y: auto;
-    /* Enables vertical scrolling */
+
     max-height: 120px;
-    /* Increased max height for the description */
 }
 
-/* Add custom scrollbars */
 .tool-card p::-webkit-scrollbar {
     width: 8px;
-    /* Width of the scrollbar */
 }
 
 .tool-card p::-webkit-scrollbar-track {
     background: #f1f1f1;
-    /* Light background for the scrollbar track */
+
     border-radius: 10px;
 }
 
 .tool-card p::-webkit-scrollbar-thumb {
     background: #ff6f61;
-    /* Orange color for the thumb */
+
     border-radius: 10px;
 }
 
 .tool-card p::-webkit-scrollbar-thumb:hover {
     background: #e55a47;
-    /* Darker orange when hovered */
 }
-
 
 .tool-card:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Team Section Styling */
 .team {
     display: flex;
     overflow-x: auto;
@@ -188,84 +178,56 @@ section h2 {
     padding: 1rem;
     position: relative;
     background-color: #0000001f;
-    /* Match the page background color */
-    box-shadow: inset 10px 5px 15px -10px rgba(0, 0, 0, 0.2), inset -10px 0 15px -10px rgba(0, 0, 0, 0.2);
-    /* Inward shadows on the sides */
-    padding-left: 1rem;
-    /* Optional: Adjust left padding to prevent content from touching the edge */
-    padding-right: 1rem;
+    box-shadow: inset 10px 5px 15px -10px rgba(0, 0, 0, 0.2),
+        inset -10px 0 15px -10px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
 }
 
-/* Behind the Beans Subtitle Styling */
 #behind-the-beans .subtitle {
     font-size: 1.25rem;
     color: #555;
     text-align: center;
     margin: 0rem 0;
-    font-family: 'Arial', sans-serif;
-    /* Optional: Adjust the font family */
+    font-family: "Arial", sans-serif;
     font-weight: bold;
 }
 
-/* Styling for the link in the Behind the Beans section */
 #behind-the-beans .info-text a {
     color: #ff6f61;
-    /* Orange color */
     text-decoration: none;
-    /* Removes the underline */
     transition: color 0.3s ease;
-    /* Smooth color transition */
 }
 
 #behind-the-beans .info-text a:hover {
     color: #e55a47;
-    /* Darker orange on hover */
 }
 
-/* Customize the scrollbar */
 ::-webkit-scrollbar {
     width: 12px;
-    /* Width of the scrollbar */
     height: 12px;
-    /* Height of the scrollbar (horizontal) */
 }
 
-/* Customize the scrollbar track (background of the scrollbar) */
 ::-webkit-scrollbar-track {
     background: #f1f1f1;
-    /* Light gray background */
     border-radius: 10px;
-    /* Rounded corners */
 }
 
-/* Customize the scrollbar thumb (the draggable part) */
 ::-webkit-scrollbar-thumb {
     background: #ff6f61;
-    /* Orange color */
     border-radius: 10px;
-    /* Rounded corners */
     border: 3px solid #e55a47;
-    /* Darker border around the thumb */
 }
 
-/* Customize the scrollbar thumb on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #e55a47;
-    /* Darker orange on hover */
 }
 
-/* Optional: Customize the scrollbar corner (where the horizontal and vertical scrollbars meet) */
 ::-webkit-scrollbar-corner {
     background: #f1f1f1;
-    /* Same as the track background */
 }
 
-
-/* Styling the scroll bar */
 .team::-webkit-scrollbar {
     height: 8px;
-    /* Vertical scrollbar height */
 }
 
 .team::-webkit-scrollbar-thumb {
@@ -276,7 +238,6 @@ section h2 {
 
 .team::-webkit-scrollbar-thumb:hover {
     background-color: #e55a47;
-    /* Slightly darker color on hover */
 }
 
 .team::-webkit-scrollbar-track {
@@ -284,16 +245,13 @@ section h2 {
     border-radius: 10px;
 }
 
-/* Team Member Card Styling */
 .team-member {
     background: #fff;
     padding: 1.5rem;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     flex: 0 0 auto;
-    /* Prevents wrapping and allows scroll */
     width: 250px;
-    /* Set width for each card */
     text-align: center;
 }
 
@@ -301,7 +259,7 @@ section h2 {
     font-size: 1.25rem;
     margin-bottom: 0.5rem;
     color: #ff6f61;
-    font-family: 'Bungee', cursive;
+    font-family: "Bungee", cursive;
 }
 
 .team-member p {
@@ -309,7 +267,6 @@ section h2 {
     color: #333;
     margin-top: 0.5rem;
 }
-
 
 .team ul {
     list-style-type: none;
@@ -320,7 +277,6 @@ section h2 {
     margin-bottom: 0.5rem;
 }
 
-/* Informational Text Styling */
 #behind-the-beans .info-text {
     font-size: 1.1rem;
     color: #333;
@@ -337,8 +293,6 @@ section h2 {
     line-height: 1.6;
 }
 
-
-/* Social Icons */
 .social-icons {
     display: flex;
     justify-content: center;
@@ -347,59 +301,43 @@ section h2 {
 }
 
 .social-icons a {
-
     width: 40px;
-    /* Icon size */
     height: 40px;
-    /* Icon size */
     display: block;
     background-color: #ff6f61;
-    /* Orange background */
     border-radius: 50%;
-    /* Circular shape */
     text-decoration: none;
     border: 4px solid #ff6f61;
-    /* Thick round orange border */
     overflow: hidden;
-    /* Ensures the image is cropped */
     position: relative;
     transition: all 0.2s ease-out;
-    /* Smooth transition for all properties */
     background-size: cover;
-    /* Ensures the background image covers the entire circle */
     background-position: center;
-    /* Centers the image within the circle */
 }
 
 .social-icons a:hover {
     transform: scale(1.3) rotate(20deg);
-    /* Slight scale up effect */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-    /* Adds a subtle shadow */
     border-color: #e55a47;
     background-color: #e55a47;
-    /* Darker orange border on hover */
 }
 
-/* Individual Social Icons */
 .social-icons .gmail {
-    background-image: url('https://cdn0.iconfinder.com/data/icons/picons-social/57/67-gmail-2-64.png');
+    background-image: url("https://cdn0.iconfinder.com/data/icons/picons-social/57/67-gmail-2-64.png");
 }
 
 .social-icons .twitter {
-    background-image: url('https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Twitter5_svg-64.png');
+    background-image: url("https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Twitter5_svg-64.png");
 }
 
 .social-icons .youtube {
-    background-image: url('https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Youtube3_svg-64.png');
+    background-image: url("https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Youtube3_svg-64.png");
 }
 
 .social-icons .github {
-    background-image: url('https://github.githubassets.com/assets/pinned-octocat-093da3e6fa40.svg');
+    background-image: url("https://github.githubassets.com/assets/pinned-octocat-093da3e6fa40.svg");
 }
 
-
-/* Features Section */
 .feature-list {
     display: flex;
     justify-content: space-around;
@@ -407,38 +345,6 @@ section h2 {
     gap: 1rem;
 }
 
-.feature {
-    background: #fff;
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    flex: 1 1 30%;
-    max-width: 30%;
-}
-
-.feature h3 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    color: #ff6f61;
-    font-family: 'Bungee', cursive;
-}
-
-/* Media Gallery */
-.gallery {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin: 2rem 0;
-}
-
-.gallery img {
-    width: 32%;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-/* Footer */
 footer {
     background: #222;
     color: #fff;
