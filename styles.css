@@ -85,7 +85,7 @@ section h2 {
     margin-top: 2rem;
 }
 
-.tool-card {
+.info-card {
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -97,14 +97,14 @@ section h2 {
     transition: all 0.1s ease-out;
 }
 
-.tool-card img {
+.info-card img {
     width: 100%;
     height: 65%;
 
     object-fit: cover;
 }
 
-.tool-card h3 {
+.info-card h3 {
     font-size: min(1.5rem, 5vw);
     margin: 0.5rem 1rem;
 
@@ -112,7 +112,7 @@ section h2 {
     font-family: "Bungee", cursive;
 }
 
-.tool-card p {
+.info-card p {
     font-size: 1rem;
     color: #333;
     padding: 0 1rem;
@@ -126,27 +126,27 @@ section h2 {
     max-height: 120px;
 }
 
-.tool-card p::-webkit-scrollbar {
+.info-card p::-webkit-scrollbar {
     width: 8px;
 }
 
-.tool-card p::-webkit-scrollbar-track {
+.info-card p::-webkit-scrollbar-track {
     background: #f1f1f1;
 
     border-radius: 10px;
 }
 
-.tool-card p::-webkit-scrollbar-thumb {
+.info-card p::-webkit-scrollbar-thumb {
     background: #ff6f61;
 
     border-radius: 10px;
 }
 
-.tool-card p::-webkit-scrollbar-thumb:hover {
+.info-card p::-webkit-scrollbar-thumb:hover {
     background: #e55a47;
 }
 
-.tool-card:hover {
+.info-card:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -163,7 +163,7 @@ section h2 {
     border-radius: 8px;
 }
 
-#behind-the-beans .subtitle {
+.subtitle {
     font-size: 1.25rem;
     color: #555;
     text-align: center;
