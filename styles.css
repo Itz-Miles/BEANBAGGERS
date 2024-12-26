@@ -172,13 +172,13 @@ section h2 {
     font-weight: bold;
 }
 
-#behind-the-beans .info-text a {
+.info-text a {
     color: #ff6f61;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-#behind-the-beans .info-text a:hover {
+.info-text a:hover {
     color: #e55a47;
 }
 
@@ -257,7 +257,7 @@ section h2 {
     margin-bottom: 0.5rem;
 }
 
-#behind-the-beans .info-text {
+.info-text {
     font-size: 1.1rem;
     color: #333;
     text-align: center;
@@ -269,7 +269,7 @@ section h2 {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-#behind-the-beans .info-text p {
+.info-text p {
     line-height: 1.6;
 }
 
