@@ -247,6 +247,11 @@ section h2 {
     color: #333;
     margin-top: 0.5rem;
 }
+.team-member img {
+    width: 180px;
+    height: 180px;
+    color: #333;
+}
 
 .team ul {
     list-style-type: none;
