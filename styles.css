@@ -60,6 +60,10 @@ body {
     text-align: center;
 }
 
+section {
+    padding: 2rem 0;
+}
+
 section h2 {
     font-size: min(6vw, 5em);
     text-align: center;
@@ -74,10 +78,6 @@ section h2 {
     font-size: 1.1rem;
     margin-bottom: 1rem;
     line-height: 1.8;
-}
-
-#tools {
-    padding: 2rem 0;
 }
 
 .grid-list {
