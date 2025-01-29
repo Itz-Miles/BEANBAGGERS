@@ -11,6 +11,9 @@ body {
     color: #333;
     margin: 0;
     background-image: url("assets/stalk-tileable.png");
+    backdrop-filter: sepia(40%) saturate(400%) hue-rotate(50deg)
+        /*blur(0px)*/
+    ;
     background-repeat: repeat;
     background-size: 128px 128px;
     background-attachment: fixed;
@@ -247,6 +250,7 @@ section h2 {
     color: #333;
     margin-top: 0.5rem;
 }
+
 .team-member img {
     width: 180px;
     height: 180px;
