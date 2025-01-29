@@ -80,10 +80,9 @@ section h2 {
     padding: 2rem 0;
 }
 
-.tool-list {
+.grid-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-
     gap: 2rem;
     margin-top: 2rem;
 }
@@ -103,14 +102,12 @@ section h2 {
 .info-card img {
     width: 100%;
     height: 65%;
-
     object-fit: cover;
 }
 
 .info-card h3 {
     font-size: min(1.5rem, 5vw);
     margin: 0.5rem 1rem;
-
     color: #ff6f61;
     font-family: "Bungee", cursive;
 }
@@ -121,11 +118,8 @@ section h2 {
     padding: 0 1rem;
     flex-grow: 1;
     line-height: 1.8;
-
     margin-top: auto;
-
     overflow-y: auto;
-
     max-height: 120px;
 }
 
@@ -135,13 +129,11 @@ section h2 {
 
 .info-card p::-webkit-scrollbar-track {
     background: #f1f1f1;
-
     border-radius: 10px;
 }
 
 .info-card p::-webkit-scrollbar-thumb {
     background: #ff6f61;
-
     border-radius: 10px;
 }
 
